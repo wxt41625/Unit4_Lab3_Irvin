@@ -4,7 +4,7 @@ from validador_irvin import es_correo_valido
 
 
 def test_correo_valido():
-    assert es_correo_valido("alumno@escuela.org") is False
+    assert es_correo_valido("alumno@escuela.org") is True
 
 
 def test_sin_arroba():
